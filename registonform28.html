@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      #box{
+        background-color:brown;
+        color: blanchedalmond;
+        width: 50%;
+        height: 400px;
+        font-family: elephant;
+        padding: 20px;
+        margin-left: 290px;
+        margin-top: 50px;
+      }
+      label{
+        line-height: 35px;
+      }
+
+    </style>
+</head>
+<body>
+  <div id="box">
+    <center>
+    <h1>SAME UNIVERSITY</h1>
+    <p>Student Registration Form</p>
+  </center>
+    <form action="">
+      <label for="name">Name :</label>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+
+      <label for="date">Dob :</label>
+      <input type="date" id="date"><br>
+
+      <label for="Gender">Gender :</label>
+      <label for="Male">Male</label>
+      <input type="radio" id="Male" name="Mal"> 
+      <label for="Femal">Femal</label>
+      <input type="radio" id="Femal" name="Mal"><br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" placeholder="Enter your email"><br>
+
+      <label for="Address">Address :</label>
+      <input type="Address" id="Address"><br>
+
+      <label for="School">School :</label>
+      <select name="School" id="School">
+        <option value="">Select</option>
+        <option value="">G.A inter School</option>
+        <option value="">Green Soft</option>
+        <option value="">R.K.HIGH School</option>
+      </select><br>
+
+      <label for="Department">Department :</label>
+      <select name="" id="Department">
+        <option value="">Select</option>
+        <option value="">1st</option>
+        <option value="">2nd</option>
+        <option value="">3rd</option>
+      </select><br>
+
+      <label for="Course">Course :</label>
+      <select name="" id="Course">
+        <option value="">Select</option>
+        <option value="">BCA</option>
+        <option value="">MCA</option>
+        <option value="">PCM</option>
+      </select><br>
+
+      <label for="number">Mobile Number :</label>
+      <input type="number" id="number" placeholder="Enter your number"><br>
+      <button>Submit</button>
+      <button type="reset" style="margin-left: 50px;">Reset</button>
+    </form>
+ </div> 
+</body>
+</html>
